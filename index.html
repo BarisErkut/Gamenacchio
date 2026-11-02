@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gamenacchio | Indie Game Studio</title>
+  <meta name="description" content="Gamenacchio is an indie game studio. Play our games on Google Play and the web." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="logo">Studio<span>Name</span></a>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <h1 class="studio-name">Gamenacchio</h1>
+      <p class="lead">Indie game studio making mobile and browser games. We design, build and publish our own titles.</p>
+      <div class="stats" id="stats"></div>
+      <div class="hero-cta">
+        <a href="#games" class="btn primary">See our games</a>
+        <a href="#team" class="btn ghost">Meet the team</a>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="section">
+      <div class="section-head">
+        <h2>Games</h2>
+        <div class="filters" id="filters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="mobile">Mobile</button>
+          <button class="chip" data-filter="web">Web</button>
+        </div>
+      </div>
+      <div class="grid" id="game-grid"></div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section">
+      <div class="section-head"><h2>Team</h2></div>
+      <div class="team" id="team-grid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <div class="contact-list" id="contact-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> StudioName. All rights reserved.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
