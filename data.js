@@ -54,7 +54,7 @@ const TEAM = [
   },
   {
     name: "Beyzanur Mollaoğlu",
-    email: "byzmllogluu@gmail.com",
+    email: "mollaoglubeyzanur@gmail.com",
     links: [
       { label: "LinkedIn", url: "https://www.linkedin.com/in/beyzanur-mollao%C4%9Flu-910544258/" },
       { label: "GitHub", url: "https://github.com/BeyzaMollaoglu" },
